@@ -5,6 +5,7 @@ const router = express.Router()
 router.get('/', async () => {
     try {
       console.log('Client Refresh-')
+      return
     } catch (err) {
       console.log(err);
     }
