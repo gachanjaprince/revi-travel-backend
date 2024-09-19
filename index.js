@@ -15,7 +15,7 @@ const app = express()
 
 const corsOptions = {
     //origin: "http://localhost:3000",
-    origin: "https://revi-travel.netlify.app/",
+    origin: "https://revi-travel.netlify.app",
     credentials: true,
 };
 
