@@ -10,7 +10,7 @@ router.get('/', async () => {
       console.log(err);
     }
   })
-router.get("/account", postController.myPosts);
+router.get("/account/:id", postController.myPosts);
 router.delete("/:id", postController.deletePost);
 
 module.exports = router;

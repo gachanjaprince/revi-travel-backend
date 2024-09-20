@@ -21,7 +21,7 @@ module.exports = {
 
       myPosts: async (req, res) => {
         try { 
-          const data = await Post.find({user: req.query.userId})
+          const data = await Post.find({user: req.params.id})
           const posts = Object.keys(data).map((e)=> data[e])
 
           res.send({
