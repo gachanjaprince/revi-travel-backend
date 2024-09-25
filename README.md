@@ -37,7 +37,7 @@
   </div>
 </div>
 <div>
-  <h2>Optimization</h2>
+  <h2>Future optimizations</h2>
   <ul>
     <li>Implementation of commenting functionality to increase user engagement with posts.</li>
     <li>Add the ability to save/favourite posts - using local storage or a database. Allows the app to offer a more personalized experience, encouraging users to return and explore their saved content easily.</li>
