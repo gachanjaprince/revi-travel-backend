@@ -15,9 +15,8 @@
   <p> 2. Create a .env file and insert your MongoDB connection string, Cloudinary variable and JWT signature. </p>
   <div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto">
     <pre>
-      <span class="pl-c1">MONGODB_URI</span>
-      <span class="pl-c1">=</span>
-      <span class="pl-s">`mongodb+srv://...`</span>
+      <span class="pl-c1">MONGODB_URI</span><span class="pl-c1">=</span><span class="pl-s">`mongodb+srv://...`</span>
+      <span class="pl-c1">CLOUD_NAME</span><span class="pl-c1">=</span><span class="pl-s">`mongodb+srv://...`</span>
     </pre>
     <pre>
       <span class="pl-c1">CLOUD_NAME</span>
