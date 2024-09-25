@@ -26,12 +26,14 @@
   </div>
   <p> 3. Start the server. </p>
   <div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto">
-    <span> npm start </span>
+    <pre><span> npm start </span></pre>
   </div>
   <p> 4. Look for success message. </p>
   <div class="highlight highlight-source-js notranslate position-relative overflow-auto" dir="auto">
-    <span> Server is running on PORT ... </span>
-    <span> Connected to MongoDB </span>
+    <pre>
+      <span> Server is running on PORT ... </span>
+      <span> Connected to MongoDB </span>
+    </pre>
   </div>
 </div>
 
